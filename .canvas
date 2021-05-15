@@ -1,0 +1,10 @@
+---
+:lessons:
+- :id: 68343
+  :course_id: 3280
+  :canvas_url: https://learning.flatironschool.com/courses/3280/pages/configuring-git-and-github-on-macos
+  :type: page
+- :id: 68343
+  :course_id: 3280
+  :canvas_url: https://learning.flatironschool.com/courses/3280/pages/mac-git-and-github-configuration
+  :type: page
