@@ -54,20 +54,29 @@ browser and your terminal.
 
 1. Open the "Terminal" application using "Spotlight Search"
 2. Type `git config --global color.ui true` and press `<Enter>`
-3. Type `git config --global user.name` + `<Space>` + your name and press `<Enter>` _(Note: this should be your full name, not your GitHub username, in quotes.)_
-4. Type `git config --global user.email` + `<Space>` + the email address you used to sign up to GitHub and press `<Enter>`
-5. Type `ssh-keygen` and press `<Enter>`
-6. For each prompt **do not type anything**, just continue to press `<Enter>`
-7. Type `cat ~/.ssh/id_rsa.pub | pbcopy` and press `<Enter>`. This will copy your SSH key to your clipboard
-8. Open the [GitHub New SSH key form][] (https://github.com/settings/ssh/new) _(Note: you need to be logged in to GitHub to access that link.)_
-9. Type "My personal Mac" in the "Title" input field
-10. Paste what’s on your clipboard from step seven in the "Key" input field
-11. Click "Add SSH Key"
+3. Type `git config --global user.name` + `<Space>` + your name and press
+   `<Enter>` _(Note: this should be your full name, not your GitHub username, in
+   quotes.)_
+4. Type `git config --global user.email` + `<Space>` + the email address you
+   used to sign up to GitHub and press `<Enter>`
+5. Type `git config --global init.defaultBranch main` to
+   [update the default branch name][] to `main`
+6. Type `ssh-keygen` and press `<Enter>`
+7. For each prompt **do not type anything**, just continue to press `<Enter>`
+8. Type `cat ~/.ssh/id_rsa.pub | pbcopy` and press `<Enter>`. This will copy
+   your SSH key to your clipboard
+9. Open the [GitHub New SSH key form][] (https://github.com/settings/ssh/new)
+   _(Note: you need to be logged in to GitHub to access that link.)_
+10. Type "My personal Mac" in the "Title" input field
+11. Paste what’s on your clipboard from step seven in the "Key" input field
+12. Click "Add SSH Key"
 
 [GitHub New SSH key form]: https://github.com/settings/ssh/new
+[update the default branch name]: https://github.com/github/renaming
 
 ### Check Your Work
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tvzcHODIIhQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you see your new SSH key beneath the "SSH keys" heading, continue to the next lesson, **Verify and Troubleshoot Your Environment Setup on macOS**.
+If you see your new SSH key beneath the "SSH keys" heading, continue to the next
+lesson, **Verify and Troubleshoot Your Environment Setup on macOS**.
