@@ -1,4 +1,4 @@
-# Configuring Git and GitHub on macOS
+# Mac Git And Github Configuration
 
 ## Install `git`
 
