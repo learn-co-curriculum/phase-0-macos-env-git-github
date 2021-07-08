@@ -35,7 +35,7 @@ have one_.
 2. Fill out the form and create your account
 3. Verify the email address connected to your GitHub account
 
-[GitHub signup webpage]: https://github.com/join
+[github signup webpage]: https://github.com/join
 
 ### Check Your Work
 
@@ -62,7 +62,11 @@ browser and your terminal.
 5. Type `git config --global init.defaultBranch main` to
    [update the default branch name][] to `main`
 6. Type `ssh-keygen` and press `<Enter>`
-7. For each prompt **do not type anything**, just continue to press `<Enter>`
+7. For each prompt **do not type anything**, just continue to press `<Enter>`.
+   It's particularly important that you **do not enter a passphase** and leave
+   the passphrase empty when prompted; otherwise, you'll have to enter that
+   passphrase any time you interact with GitHub (which will happen a lot during
+   the program); and you may run into issues submitting assignments later.
 8. Type `cat ~/.ssh/id_rsa.pub | pbcopy` and press `<Enter>`. This will copy
    your SSH key to your clipboard
 9. Open the [GitHub New SSH key form][] (https://github.com/settings/ssh/new)
@@ -71,7 +75,7 @@ browser and your terminal.
 11. Paste what’s on your clipboard from step seven in the "Key" input field
 12. Click "Add SSH Key"
 
-[GitHub New SSH key form]: https://github.com/settings/ssh/new
+[github new ssh key form]: https://github.com/settings/ssh/new
 [update the default branch name]: https://github.com/github/renaming
 
 ### Check Your Work
