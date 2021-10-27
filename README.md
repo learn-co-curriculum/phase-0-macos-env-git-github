@@ -2,22 +2,23 @@
 
 ## Install `git`
 
-Git generally comes pre-installed with most operating systems, but you can check
-by running `git version` in the terminal. If this gives you an error or does not
-come back with a version number, you'll need to install Git. You can install it
-using Homebrew.
+[Git][git] generally comes pre-installed with most operating systems, but you
+can check by running `git version` in the terminal. If this gives you an error
+or does not come back with a version number, you'll need to install Git. You can
+install it using Homebrew.
+
+[git]: https://git-scm.com/
 
 ### Action Item
 
 1. Open the "Terminal" application using "Spotlight Search"
 2. Type `brew install git` and press `<Enter>`
-3. Close the "Terminal" application
-4. Reopen the "Terminal" application using "Spotlight Search"
-5. Type `git version` and press `<Enter>`
+3. Close and reopen the "Terminal" application
+4. Type `git version` and press `<Enter>`
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6uqtJKuqbrU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D9Eudqng2sU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you see a message starting with "git version...", continue below.
 
@@ -29,8 +30,6 @@ have one_.
 
 ### Action Item
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w-U97mW2XvI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 1. Open the [GitHub signup webpage][] (https://github.com/join)
 2. Fill out the form and create your account
 3. Verify the email address connected to your GitHub account
@@ -38,6 +37,8 @@ have one_.
 [github signup webpage]: https://github.com/join
 
 ### Check Your Work
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cVNLBQssm8g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you were able to verify your email address, continue below.
 
@@ -80,7 +81,7 @@ browser and your terminal.
 
 ### Check Your Work
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tvzcHODIIhQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2YF15UlenxM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you see your new SSH key beneath the "SSH keys" heading, continue to the next
 lesson, **Verify and Troubleshoot Your Environment Setup on macOS**.
