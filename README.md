@@ -73,8 +73,9 @@ browser and your terminal.
 9. Open the [GitHub New SSH key form][] (https://github.com/settings/ssh/new)
    _(Note: you need to be logged in to GitHub to access that link.)_
 10. Type "My personal Mac" in the "Title" input field
-11. Paste what’s on your clipboard from step 8 in the "Key" input field
-12. Click "Add SSH Key"
+11. Leave the "Key Type" as "Authentication Key"
+12. Paste what’s on your clipboard from step 8 in the "Key" input field
+13. Click "Add SSH Key"
 
 [github new ssh key form]: https://github.com/settings/ssh/new
 [update the default branch name]: https://github.com/github/renaming
