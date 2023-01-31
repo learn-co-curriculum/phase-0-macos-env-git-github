@@ -85,4 +85,4 @@ browser and your terminal.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2YF15UlenxM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you see your new SSH key beneath the "SSH keys" heading, continue to the next
-lesson, **Configuring the Flatiron Student Portal**.
+lesson, **Verify and Troubleshoot your MacOS Environment Setup**.
